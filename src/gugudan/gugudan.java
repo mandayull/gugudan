@@ -60,6 +60,18 @@ public class gugudan {
 		System.out.println(number * 8);
 		System.out.println(number * 9);
 		
+		String name;
+		int Math;
+		
+		System.out.print("이름?");
+		name = scanner.next();
+		
+		System.out.print("점수?");
+		Math = scanner.nextInt();
+		
+		System.out.println(name +":" +Math);
+		
+		
 	}
 
 }
